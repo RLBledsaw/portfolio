@@ -1,0 +1,56 @@
+body {
+	font-family: 'Tahoma', sans-serif;
+	font-size: small; 
+	color: black; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5f1f61+0,4b254b+51,3f233e+100 */
+	background: rgb(95,31,97); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(95,31,97,1) 0%, rgba(75,37,75,1) 51%, rgba(63,35,62,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(95,31,97,1) 0%,rgba(75,37,75,1) 51%,rgba(63,35,62,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(95,31,97,1) 0%,rgba(75,37,75,1) 51%,rgba(63,35,62,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5f1f61', endColorstr='#3f233e',GradientType=1 ); /* IE6-9 */
+	padding: 0px;
+	margin: 0px;
+}
+#portfolio {
+	position: relative;
+	width: 640px;
+	background: url("container-bg.jpg") rgb(245, 203,144) top left repeat-y;
+	border-top: 0px;
+	padding-top: 1px;
+	padding-bottom: 0px;
+	border-left: 2px solid black;
+	border-right: 3px solid black;
+	margin: auto;
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+h1 {
+	text-align: center;
+	font-size: 300%
+}
+#navbar {
+	background-color: black;
+	height: 40px;
+}
+	#navbar a{
+		text-decoration: none;
+		font-size: 20pt;
+		width: 100px;
+		margin: 5px;
+		padding: 5px;
+	}
+img {
+	
+	margin: 10px;
+	margin-left: 130px;
+	border: 2px solid black;
+}
+h2 {
+	padding: 5px;
+	margin: 5px;
+	text-decoration: underline;
+}
+p {
+	width: 600px;
+	margin-left: 10px;
+}
